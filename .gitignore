@@ -1,0 +1,11 @@
+.env
+.DS_Store
+*.log   
+*.tmp
+*.bak
+
+*.swp
+*.swo
+*.pid
+*.sql
+node_modules

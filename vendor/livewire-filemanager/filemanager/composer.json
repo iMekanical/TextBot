@@ -1,0 +1,59 @@
+{
+    "name": "livewire-filemanager/filemanager",
+    "description": "A simple, friendly and practical Livewire filemanager for your applications",
+    "homepage": "https://github.com/livewire-filemanager/filemanager",
+    "keywords": [
+        "livewire-filemanager",
+        "filemanager"
+    ],
+    "authors": [
+        {
+            "name": "Yves Engetschwiler",
+            "email": "info@bee-interactive.ch",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LivewireFilemanager\\Filemanager\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LivewireFilemanager\\Filemanager\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LivewireFilemanager\\Filemanager\\FilemanagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2|^8.3",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/view": "^10|^11|^12.0",
+        "livewire/livewire": "^3.5.4",
+        "spatie/laravel-medialibrary": "^10.15|^11.5.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "laravel/pint": "^1.16",
+        "orchestra/testbench": "^8.23.2|^10.0",
+        "phpunit/phpunit": "^10.5.20|^11.0"
+    }
+}
