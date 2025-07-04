@@ -9,3 +9,4 @@
 *.pid
 *.sql
 node_modules
+vendor

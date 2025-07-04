@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import { initFlowbite } from 'flowbite'
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     plugins: [
-        initFlowbite(),
+        tailwindcss(),
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,

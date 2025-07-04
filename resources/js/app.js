@@ -1,5 +1,5 @@
 import './flowbite.min.js'; // Import a local JavaScript file
-import 'flowbite'; // Import a local JavaScript file
+import './flowbite.bundle.js'; // Import a local JavaScript file
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
