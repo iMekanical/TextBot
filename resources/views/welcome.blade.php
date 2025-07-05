@@ -46,8 +46,8 @@
 <nav id="mainNavbar" data-sticky="true" class="group dark:bg-transparent bg-transparent border-gray-200 py-2.5 fixed w-full z-40 top-0 start-0 data-[sticky=true]:bg-white data-[sticky=true]:border-b dark:data-[sticky=true]:bg-gray-800 dark:data-[sticky=true]:border-gray-700">
 <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4">
 <a href="/" class="flex items-center">
-<img src=i src="chR_BUBBLES.SVG" class="h-8 mr-3" alt="Flowbite Logo" />
-<span class="self-center text-2xl font-semibold whitespace-nowrap text-white group-data-[sticky=true]:text-gray-900 dark:group-data-[sticky=true]:text-white">Flowbite</span>
+<img src="img/logos/logo-dating_textbot-dark-4x1.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+<span class="self-center text-2xl font-semibold whitespace-nowrap text-white group-data-[sticky=true]:text-gray-900 dark:group-data-[sticky=true]:text-white"></span>
 </a>
 <div class="flex items-center g:order-2">
 <flux:button x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon" variant="subtle" aria-label="Toggle dark mode" />    
