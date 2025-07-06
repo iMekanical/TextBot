@@ -1,0 +1,377 @@
+time,from,to,unique_message_id,sentiment_score,guidance,message
+2025-06-20 18:05:00,Daniel,Heather,9a1e8faa-0800-43d7-902a-99288f5c12e6,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 18:08:00,Heather,Daniel,badc2cf9-9bf3-4fce-a76d-29dd3885da6c,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 18:12:00,Daniel,Heather,ac439b69-6313-4ed6-94d0-ded9366c03bc,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-20 18:16:00,Heather,Daniel,abeed5c1-4b5e-4e38-9a3d-0b325ca91307,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-20 18:20:00,Daniel,Heather,8fac79b3-a4b6-4683-b6d7-e6d42f79fa85,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-20 18:25:00,Heather,Daniel,e9ba7676-d8fb-4ed5-8045-4c77ed9ad7c0,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-20 18:28:00,Daniel,Heather,cd8d9b94-d4fb-4394-b75e-e4ddd912d217,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-20 18:33:00,Heather,Daniel,ac7cd67a-4583-4e95-af04-d61ea278251e,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-20 18:38:00,Daniel,Heather,c94d5927-0956-4fd4-95eb-94ce24b47978,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-20 18:41:00,Heather,Daniel,0197576c-0c13-48f8-9fe6-26ba172faab0,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-20 18:45:00,Daniel,Heather,9fbccd16-f1a3-443c-b3d8-3f88f333f927,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-20 18:48:00,Heather,Daniel,49e2d5b9-8a08-4e23-9f03-dcf93024b101,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-20 18:52:00,Daniel,Heather,9f338da0-48bc-4fed-96ee-c2c6d94c8fc9,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-20 18:55:00,Heather,Daniel,9cedca0a-23f9-478f-bc0f-cf31b7581979,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-20 19:00:00,Daniel,Heather,e2c59537-e7d3-4aba-95f1-aa8965c38b60,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-20 19:03:00,Heather,Daniel,c7d9a634-32c7-4a74-bea0-5534e482f413,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-20 19:06:00,Daniel,Heather,b25ef15c-1d04-43ef-8c93-39307c5eae55,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-20 19:09:00,Heather,Daniel,38c0df48-12ec-47a4-8796-e57f5fce7d14,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 19:13:00,Daniel,Heather,e6878909-ce13-4333-be3f-c278702271d5,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-20 19:13:00,AI,Daniel,95b492ae-84a5-4a5b-ad6f-dda144cb5a26,,"Summary after 10 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-20 19:16:00,Heather,Daniel,2882fcb7-1203-4e3b-b73e-7e28f95d0a81,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-20 19:21:00,Daniel,Heather,1018e943-3027-41d6-b1a3-11dc7a907e9e,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-20 19:24:00,Heather,Daniel,fe26416d-6e5c-4b5d-88a1-5f122bd59cd0,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-20 19:27:00,Daniel,Heather,104a65fb-2c66-4f0a-bd18-00c68db35f55,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-20 19:32:00,Heather,Daniel,cde5777e-1943-409b-92a2-9d2c7551757e,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-20 19:36:00,Daniel,Heather,9a2c7cc7-77e6-4510-82b5-8f0ce10aed10,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-20 19:39:00,Heather,Daniel,819fcb17-d649-418e-a066-2adc593d3cc7,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-20 19:43:00,Daniel,Heather,a1ea4840-edf0-40a1-9eb8-27e92e0eeb9a,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-20 19:46:00,Heather,Daniel,a7af0bcc-cb69-4d52-a096-29a2a3f01666,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-20 19:50:00,Daniel,Heather,fd0b45cb-e771-4ae2-8105-97d50b8c1812,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 19:55:00,Heather,Daniel,4fdbc82a-563d-4074-8f29-b1fd14a24798,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 20:00:00,Daniel,Heather,9951a244-84cb-4888-8389-484a6000a527,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-20 20:05:00,Heather,Daniel,3d9a3bc5-3167-4233-921a-f186805086c3,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-20 20:09:00,Daniel,Heather,04f72cd5-dae1-4577-8ec8-8073372d3315,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 20:12:00,Heather,Daniel,25be9cb8-aacc-4082-a0ae-47f2f09100bf,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-20 20:17:00,Daniel,Heather,c0dda801-735a-443c-9cfd-b04c58ebd1d7,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 20:20:00,Heather,Daniel,bc80d8c7-3de5-4156-8c26-d9c016908bd0,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-20 20:24:00,Daniel,Heather,92768652-bea2-4d8d-aed6-048a1b973e02,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-20 20:28:00,Heather,Daniel,d214acc0-f881-4cdc-93d6-03ed93ea11c8,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 20:31:00,Daniel,Heather,89401108-1908-4bf6-9953-74bd627b8c65,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-20 20:31:00,AI,Daniel,66421acc-f91e-4868-86ee-e08fde1a5fa1,,"Summary after 20 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-20 20:35:00,Heather,Daniel,03081615-6378-4fb4-a8cf-518aa3492336,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-20 20:40:00,Daniel,Heather,f34e9611-278c-47c5-832c-66ba3c5f3072,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-20 20:45:00,Heather,Daniel,93a8da09-905f-45fd-ba97-63b2188bd235,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-20 20:48:00,Daniel,Heather,56dbcdc9-9b62-467c-8f1f-d1849924e8f8,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-20 20:51:00,Heather,Daniel,fe78467f-fefc-4b5a-ab61-3aa83d9f1415,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 20:56:00,Daniel,Heather,0e2da6cf-09ed-4aa9-ac31-9b1c308ca4fd,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-20 20:59:00,Heather,Daniel,45a97aab-a547-414c-ae53-8d9c4bdac2c0,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-20 21:03:00,Daniel,Heather,973d002f-e8a5-4df2-a231-ca50c6becd93,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-20 21:07:00,Heather,Daniel,328a35bf-a173-47b6-ab77-52ebdb0dca05,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 21:11:00,Daniel,Heather,1a5c5485-0135-4a26-8c31-43e403f6c410,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-20 21:15:00,Heather,Daniel,b4417b20-8631-4e71-a8b7-af0e27ef1d0a,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 21:18:00,Daniel,Heather,90b692c7-004b-453f-b201-5ac1a3e9321b,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-20 21:21:00,Heather,Daniel,077517ad-d835-4c2a-953a-d7cd444917e0,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-20 21:25:00,Daniel,Heather,b45e13a6-87f3-431a-8843-fb6bf8cfa2a1,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-20 21:28:00,Heather,Daniel,20c18bb2-98b6-434c-abca-3f72bc0ec4a1,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-20 21:31:00,Daniel,Heather,0605f79e-149e-4da5-8476-3760f837d64d,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-20 21:35:00,Heather,Daniel,d4b1e6af-f333-4236-a0e6-ee35d7db0a7e,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 21:40:00,Daniel,Heather,73a12424-f325-4a5d-87ef-b2d6bdd68b7e,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 21:43:00,Heather,Daniel,9a5570b7-bd6f-4d7a-a343-b810bfaedc8a,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-20 21:46:00,Daniel,Heather,db44220f-9a6c-4c51-9720-cc51e26ee003,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-20 21:46:00,AI,Daniel,c4052d81-7a69-4bbc-b911-08a9502b22ab,,"Summary after 30 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-20 21:51:00,Heather,Daniel,6d588bbf-9b9f-43f0-b605-c22bfc2ed484,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-20 21:54:00,Daniel,Heather,288dc1c9-b64a-4628-85b5-2c9c0b4dd0fa,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-20 21:58:00,Heather,Daniel,653eb3c5-e44d-409c-a3d5-d5cd2a80e315,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 22:01:00,Daniel,Heather,e82fed5d-eba5-40a4-b5e7-81f468904163,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 22:04:00,Heather,Daniel,0089d274-299e-406c-b9ff-ea752f59389d,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-20 22:09:00,Daniel,Heather,eed30d78-08dc-4ec7-aa75-273331ef97ab,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-20 22:13:00,Heather,Daniel,08d3fa42-7a2e-4542-8936-4046f81e13d9,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 22:18:00,Daniel,Heather,f8b7d525-8e64-41a1-b27e-b395ff86789d,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-20 22:22:00,Heather,Daniel,2d280eeb-a333-45dc-8f2d-f5c7fced6a51,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 22:27:00,Daniel,Heather,436cca56-3ec8-4284-b594-8d55677bdc82,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 22:32:00,Heather,Daniel,fe4722d1-4cb9-4ce5-aaf6-d3bfbfb620e4,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-20 22:36:00,Daniel,Heather,35ff633c-f307-409c-89f3-7c4f69a6638b,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-20 22:41:00,Heather,Daniel,71130154-6fff-4274-a0bf-b4b9dd1c2842,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 22:46:00,Daniel,Heather,b1b060e7-edcb-4609-9906-351c576af023,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-20 22:51:00,Heather,Daniel,9708e92f-fdc1-49b4-b1bf-fd008e9d79b6,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-20 22:54:00,Daniel,Heather,a97719cb-7fa8-45a7-b8b6-1352eff77f82,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-20 22:59:00,Heather,Daniel,18c46c1b-5752-4570-b567-85da77924aa7,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-20 23:04:00,Daniel,Heather,79548aac-1493-48b5-b06d-331681d55a59,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-20 23:08:00,Heather,Daniel,cf8bac41-5a99-43ed-9696-09c7fe18ca06,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-20 23:13:00,Daniel,Heather,c507f208-472c-420d-b156-469ad1645c1c,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-20 23:13:00,AI,Daniel,270cde75-d1a2-4f4d-b10d-3305e88d6693,,"Summary after 40 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-20 23:17:00,Heather,Daniel,c037f101-da2d-4c85-847a-a4cd3ad4c1ee,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-20 23:20:00,Daniel,Heather,a41759a3-9f22-4b2e-bddf-98a8c4d529f9,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-20 23:24:00,Heather,Daniel,f0cecf9b-a781-4c3b-93bb-5ae3d07e8ee8,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-20 23:27:00,Daniel,Heather,72befca8-0bf3-4fed-8ed3-434cfd0aca20,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-20 23:32:00,Heather,Daniel,e0ee8c5c-d212-4aaa-9ddd-82e573dc492e,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-20 23:37:00,Daniel,Heather,f8a9a9b8-cbbe-4be7-8e11-d29b042bb4cf,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-20 23:41:00,Heather,Daniel,06f0555b-84d8-49ee-b643-456ff5a76dab,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-20 23:44:00,Daniel,Heather,b5933eb9-0118-43ca-8857-63d78e3e3af9,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-20 23:47:00,Heather,Daniel,d453bb2d-631d-41e4-a2c5-1316a1bc507e,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-20 23:52:00,Daniel,Heather,b931effb-85a7-4cb8-9242-76dcc1ecb7bc,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-20 23:56:00,Heather,Daniel,0e2485c5-123e-4f46-aacb-990af758f8fc,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 00:00:00,Daniel,Heather,da169ac7-23f1-4f93-9e71-7f9556d326e0,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 00:03:00,Heather,Daniel,3009d7ab-823e-446d-afdc-b841a555a7a1,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 00:08:00,Daniel,Heather,61213fed-a265-4cd6-954b-c2ae0a3fa5d6,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 00:13:00,Heather,Daniel,c76e436c-bac2-472b-bffa-4b5f87f1218e,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 00:17:00,Daniel,Heather,ff19ee3a-0559-47ea-9359-5a9aa8cef491,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 00:22:00,Heather,Daniel,c3f349f0-0b91-4085-bd85-231c7b89d37d,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 00:26:00,Daniel,Heather,904a637e-d7e7-4f75-baf6-bf05ccd78427,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 00:31:00,Heather,Daniel,53b48a3d-62fb-4caf-990c-6f00fddcb0ea,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 00:34:00,Daniel,Heather,7f842f1b-187a-4338-9ab4-1f14b937e03c,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 00:34:00,AI,Daniel,169f4189-f42b-4f94-b8a7-253050dac966,,"Summary after 50 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 00:37:00,Heather,Daniel,b596a9a9-d2f0-4f7b-bb46-920380ca2c95,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 00:40:00,Daniel,Heather,c1f3720b-c135-4a5f-accc-4079b5cbdf88,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 00:43:00,Heather,Daniel,d0378053-5f8c-4915-a750-c890cec291e6,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 00:47:00,Daniel,Heather,86e20479-7274-4026-96cf-619dd3df3d16,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 00:50:00,Heather,Daniel,84de6f29-7803-446c-a1dd-5f3cbd13eea7,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 00:53:00,Daniel,Heather,7e3adb5e-8047-479e-8e21-90def2cd3a2e,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 00:57:00,Heather,Daniel,5b5ac6b4-08e1-4bfc-a36c-e8a3eaca082a,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 01:01:00,Daniel,Heather,633104a1-c62f-4c59-b015-b4126cdf9f14,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 01:05:00,Heather,Daniel,ba902add-a3a7-4130-9227-85a4bb75f1b5,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 01:08:00,Daniel,Heather,77170ce2-6b7e-45bb-8146-0ef914fac00f,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 01:12:00,Heather,Daniel,d00b1d0b-45f2-4e26-879c-c5c5c7379e79,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 01:15:00,Daniel,Heather,37863d56-d935-48ed-a90b-b9ee419d3eb4,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 01:20:00,Heather,Daniel,8fc8d1aa-fea6-4da1-a8cc-6053c9269b1f,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 01:23:00,Daniel,Heather,4062fe21-e828-4797-868d-5171f6f14cad,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 01:26:00,Heather,Daniel,41ae553e-b6a8-485d-987e-a0ad324d5e25,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 01:31:00,Daniel,Heather,ddb061c5-1f54-46e3-8eb2-a70adc731d3c,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 01:35:00,Heather,Daniel,b410b786-57bb-4ecb-9d6f-3eb59d134755,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 01:40:00,Daniel,Heather,2ecc2df1-7fd5-4857-857a-b49d010a4d09,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 01:44:00,Heather,Daniel,83c91971-9f53-4e34-a997-ca66c7ef2a0f,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 01:49:00,Daniel,Heather,99506244-3f37-4f60-a4e1-88bc2b2ca590,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 01:49:00,AI,Daniel,f33fede2-3332-44d9-9ceb-cd1ccb45ea4e,,"Summary after 60 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 01:53:00,Heather,Daniel,9b318324-2f21-47f4-8e80-43f2f865f77d,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 01:57:00,Daniel,Heather,c62ed1d9-2da1-472d-be68-ce7dece63e84,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 02:00:00,Heather,Daniel,71388289-dec3-4c1a-8a81-c24147863f3b,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 02:03:00,Daniel,Heather,e75ce2cd-91c0-4c0a-986b-49c5dee8a6bd,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 02:07:00,Heather,Daniel,7ab56b70-611e-4444-bda4-e9dbd4df61de,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 02:11:00,Daniel,Heather,e26708b2-6e8b-4d7d-9b58-9706101a4e4f,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 02:16:00,Heather,Daniel,13ca5b7a-999b-4021-8415-a0320f393294,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 02:20:00,Daniel,Heather,d1603dcb-15b7-4625-9640-ecd2e2bb9468,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 02:23:00,Heather,Daniel,87361dd5-6a5e-4bad-ae53-f771f0454d66,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 02:27:00,Daniel,Heather,ae8b9398-de0e-40c2-8d0b-e5ae1d752e37,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 02:31:00,Heather,Daniel,206f0ccf-1116-4c64-8220-d391b52e9a1f,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 02:34:00,Daniel,Heather,fb5bb81a-9f68-41ab-95e7-1a3729e016a2,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 02:37:00,Heather,Daniel,515cbab6-5f23-4452-b91d-b042a2f92cbb,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 02:40:00,Daniel,Heather,7a7dacc6-8009-4e11-9840-2edc6dba2afc,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 02:44:00,Heather,Daniel,8f662448-4c66-4eb0-bfa4-0adeeffc64bb,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 02:49:00,Daniel,Heather,093dc062-1ee5-4804-8bd3-40910c550e82,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 02:52:00,Heather,Daniel,c92d2589-4948-4899-9345-37384166be05,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 02:57:00,Daniel,Heather,3ba3b568-0dff-4d78-becc-12bab65edf31,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 03:00:00,Heather,Daniel,34320efa-5b1a-41ad-88ba-404114c4d09b,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 03:03:00,Daniel,Heather,f916d775-d7b2-4605-a810-bd9fc6fdc08e,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 03:03:00,AI,Daniel,4f6c9c56-3402-4355-975f-6bc7d4c3ba6d,,"Summary after 70 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 03:07:00,Heather,Daniel,18e37274-9393-4d02-b4b4-36808f785602,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 03:12:00,Daniel,Heather,efb6db8c-c28b-4579-935e-912390382fb3,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 03:17:00,Heather,Daniel,6873f9dc-7721-4a0b-b3a9-debbe67ccd07,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 03:20:00,Daniel,Heather,ac59bef2-8570-4bbf-8e16-1539692987ee,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 03:24:00,Heather,Daniel,badb8e51-52ca-49da-83d9-5edc6338b6ae,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 03:28:00,Daniel,Heather,a1af7b14-878a-425c-a51d-b922fc312489,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 03:33:00,Heather,Daniel,3310750d-5021-4a83-a538-5df9427b3605,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 03:38:00,Daniel,Heather,c200c222-a741-4450-bb42-f1048c1e1e21,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 03:43:00,Heather,Daniel,a82ddfab-c9c0-48aa-be3e-3d638ea0ab16,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 03:47:00,Daniel,Heather,aa6e6a22-1e20-4267-877a-47880618f31e,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 03:51:00,Heather,Daniel,97e0ae8a-5542-4314-89a7-f9e9b02a9d9d,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 03:56:00,Daniel,Heather,03729e9e-314a-4b3c-bbb2-664cc412a7a2,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 04:01:00,Heather,Daniel,6a65e079-4593-4086-abdc-e092885f6cf2,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 04:06:00,Daniel,Heather,891aa144-4ddf-4702-9d39-28924fb459e4,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 04:11:00,Heather,Daniel,abcb92b8-968f-4772-84b2-8d501c8d2334,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 04:16:00,Daniel,Heather,94edd262-5868-4c21-bfc4-22547c1c6343,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 04:19:00,Heather,Daniel,352e8d98-4e3e-4fb2-a2dc-6500fda9af5e,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 04:23:00,Daniel,Heather,1045f8a3-818f-463e-a7b3-3255310f7bff,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 04:28:00,Heather,Daniel,57fbe66e-80e8-43b0-a7c0-364093c0fd1d,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 04:32:00,Daniel,Heather,e35d47ff-be86-462e-9d06-29a6d29422a7,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 04:32:00,AI,Daniel,55d18ae2-792f-44d9-8927-91f3e06108a5,,"Summary after 80 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 04:35:00,Heather,Daniel,7e18a275-9321-47e9-946b-0f88c8cb9a71,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 04:38:00,Daniel,Heather,dee77c8c-91b1-4a83-b19e-d78446520202,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 04:41:00,Heather,Daniel,034dbe66-da27-46ca-ba6a-7c258018b5f7,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 04:46:00,Daniel,Heather,c60ca7cd-afdb-415f-86de-d41775fc8677,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 04:50:00,Heather,Daniel,9a687439-5885-44e1-9d26-22735820ce84,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 04:55:00,Daniel,Heather,397de31c-c1cf-43a3-8fa7-f5322c9eb5b9,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 05:00:00,Heather,Daniel,5a5281e8-a317-4955-9f09-c3a41ee46579,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 05:04:00,Daniel,Heather,3eef1be5-143c-4332-b954-d6d3c6c8b9a4,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 05:08:00,Heather,Daniel,3379c7ed-a69b-4416-afdf-97954afe3623,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 05:13:00,Daniel,Heather,e88cd08d-5e69-4bc0-bbf0-4871a698cb10,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 05:18:00,Heather,Daniel,901574d9-a0ab-4b57-b38e-60fd7774ba86,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 05:22:00,Daniel,Heather,27d27b5d-6b6d-4eee-b006-7334d325a85b,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 05:26:00,Heather,Daniel,e968c5dc-96d4-430f-a5d1-22984ce0b24f,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 05:30:00,Daniel,Heather,1aa79fd0-b7cb-493a-aec1-be7d327695c0,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 05:35:00,Heather,Daniel,ecd1c937-09d8-43a5-b1e0-fe31368d37f6,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 05:39:00,Daniel,Heather,3274b31b-0be3-4e8e-810c-39ff2c21b43a,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 05:43:00,Heather,Daniel,b964ff32-010c-4698-bc50-2225b04350f6,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 05:46:00,Daniel,Heather,18ddd12e-f760-41d9-9132-e01c5d1f734f,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 05:50:00,Heather,Daniel,d6ed32db-fd3e-492b-9177-2b54346b2a84,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 05:53:00,Daniel,Heather,a5cad46f-bb70-48c8-9ec8-9eba948e5591,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 05:53:00,AI,Daniel,de68e238-ece7-4255-a300-937c7e89c417,,"Summary after 90 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 05:56:00,Heather,Daniel,3857e49d-1267-42f9-8810-9943da6a682e,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 06:01:00,Daniel,Heather,e9195fae-86e9-4555-a550-548797738136,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 06:04:00,Heather,Daniel,6cf00caf-a23f-40c8-bd72-1c639c94a018,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 06:07:00,Daniel,Heather,6312d40a-c574-42bf-86de-851e6c0deaef,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 06:12:00,Heather,Daniel,998a3dbc-e337-458b-8941-40f9f728052e,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 06:15:00,Daniel,Heather,b7d766a9-2b95-4365-9069-31da1d79da7f,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 06:20:00,Heather,Daniel,c459f27d-156a-4568-ab4f-769e0e46b9e3,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 06:24:00,Daniel,Heather,b4ad954d-bf51-45bc-a11e-1114fd78acb3,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 06:27:00,Heather,Daniel,fd94d594-1973-49d6-b72e-ee055bfbd57e,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 06:32:00,Daniel,Heather,98daf346-1024-49d3-9bc7-1a9db2371cb2,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 06:37:00,Heather,Daniel,50edaac6-066c-46b8-9df7-f3e0a7ec9415,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 06:41:00,Daniel,Heather,7927bcb1-4fb9-4db7-9f7b-5c7b698181ec,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 06:45:00,Heather,Daniel,70fd0eba-7142-4e8e-8646-748b10099fb0,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 06:48:00,Daniel,Heather,2aaa6a48-2f57-4b8f-ba67-03f4a76663a0,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 06:53:00,Heather,Daniel,a9669083-cac7-4c52-ba39-a2153b403c16,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 06:56:00,Daniel,Heather,1b2b3119-2376-425a-b83d-a4b1269ab19e,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 07:00:00,Heather,Daniel,c7cebbc0-95f1-44ab-943d-557e7e7f680f,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 07:03:00,Daniel,Heather,a75c99c3-2dad-41ac-8f76-a282297cbefe,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 07:08:00,Heather,Daniel,484b7d78-c004-4380-8bd4-e74a1da8c41d,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 07:13:00,Daniel,Heather,10b9931e-6a5f-49d6-ba2d-cf615a220d12,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 07:13:00,AI,Daniel,f5dd2c9d-818d-44ec-ab0c-e4672a42a714,,"Summary after 100 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 07:16:00,Heather,Daniel,c15b2cb7-2237-4d8c-8ba0-e6e32be9f48c,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 07:20:00,Daniel,Heather,b868db9c-ab63-4889-bab5-8b21b0176d6e,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 07:25:00,Heather,Daniel,e665f441-21e7-45d3-aa60-b7560f6d77bc,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 07:30:00,Daniel,Heather,79746eb8-426e-4396-81a7-8910ea5bed27,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 07:34:00,Heather,Daniel,69a96bd0-fb1a-4c64-87e3-26163fabd606,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 07:37:00,Daniel,Heather,cbd77ff3-eaab-4b17-bb86-1b1c007f0082,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 07:41:00,Heather,Daniel,2095bccc-f436-4f85-9f9e-b36216d8cf65,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 07:44:00,Daniel,Heather,ceed80b8-5207-4b4f-a374-91a94ca2c37d,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 07:47:00,Heather,Daniel,18d5c3e8-e480-4859-bce1-d8672f9c9a7a,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 07:50:00,Daniel,Heather,9520921b-e810-4e3a-ac53-e2e1dd52e3a2,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 07:55:00,Heather,Daniel,709a9cd7-47bc-43c9-ba08-3d15c9abbf45,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 07:58:00,Daniel,Heather,9c99baf1-f0c5-4250-9a7f-17a0895460d1,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 08:03:00,Heather,Daniel,8119c24a-2c3f-414d-92ee-9b71704b815c,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 08:07:00,Daniel,Heather,7ef75398-6f86-4db3-b17d-743b4cda4246,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 08:11:00,Heather,Daniel,9d87c5f5-bde6-4d38-86b5-2bbfefb91b03,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 08:15:00,Daniel,Heather,dc6cb23a-fa23-4d35-bb74-ca1964d683e0,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 08:18:00,Heather,Daniel,426d39f5-39d1-43d4-9ce1-d1f12288df36,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 08:23:00,Daniel,Heather,3f76f694-b074-4050-9e73-beaff930aeb5,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 08:28:00,Heather,Daniel,ef7ce13b-423f-48aa-a206-e127dcfd6028,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 08:32:00,Daniel,Heather,a49cadfd-bf1f-49f4-9297-dfcf917baf6d,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 08:32:00,AI,Daniel,d59e3102-eeb1-4908-8eda-1b4d1ef2e301,,"Summary after 110 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 08:35:00,Heather,Daniel,da66d778-cefe-43b2-a8bb-b9afb81e9ee2,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 08:40:00,Daniel,Heather,a94a265d-c892-4455-889f-2e8bb1aa629b,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 08:45:00,Heather,Daniel,cd019441-6825-449c-8ed7-2edb0f6f2761,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 08:50:00,Daniel,Heather,59bfa9e8-5cb7-4597-995b-e6b744187997,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 08:55:00,Heather,Daniel,ab2ff1cc-2a6a-4ce9-a99a-380084980369,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 08:58:00,Daniel,Heather,0c626ca6-7510-46c9-8a1d-886d4dd76624,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 09:01:00,Heather,Daniel,ed7eaab3-2c88-4a5a-896b-517b8f93418a,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 09:05:00,Daniel,Heather,1f479539-a482-42b5-8fe2-0299b4685b7f,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 09:10:00,Heather,Daniel,e5a9e379-7d90-484c-9933-d59527d8198d,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 09:13:00,Daniel,Heather,ed6d7494-db51-449f-bdcf-b45b22104c14,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 09:17:00,Heather,Daniel,af2e3374-ec4c-4cad-b476-9e5f44fd009e,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 09:22:00,Daniel,Heather,e5e94a73-09a3-4531-a083-3ee52c46a8ff,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 09:27:00,Heather,Daniel,978c4075-e3f4-4e48-9c2a-b54d0bc0df3d,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 09:32:00,Daniel,Heather,e29eb193-409f-4218-9483-3c4fc2eaae3f,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 09:37:00,Heather,Daniel,1431880c-050a-446c-b3d4-416e6a85a2b7,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 09:41:00,Daniel,Heather,1d3edea6-0858-45db-9127-768b81aeb75e,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 09:46:00,Heather,Daniel,084c4c0a-6a1e-4631-a844-47c6976bf92b,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 09:50:00,Daniel,Heather,02082275-02b6-4032-b218-ae63c67bfd9a,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 09:55:00,Heather,Daniel,116483a0-2735-4c2a-8e97-21bd9daf7dfd,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 10:00:00,Daniel,Heather,4095e377-3367-469b-a221-ec0d60b0d45a,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 10:00:00,AI,Daniel,0d18c95d-a16a-45e8-8357-47b7b1c2357d,,"Summary after 120 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 10:05:00,Heather,Daniel,268c0fa2-2391-4f1f-baaa-14c5f8e66a17,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 10:09:00,Daniel,Heather,bb528b7e-a984-420a-b053-15324665d21e,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 10:12:00,Heather,Daniel,78c8619a-f4a5-4f57-b9b5-8ba7c0c2bc7d,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 10:16:00,Daniel,Heather,23970663-cfca-4d31-9b83-62609679b7e3,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 10:20:00,Heather,Daniel,11a6ae37-6117-4739-833f-293b3c4c6f26,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 10:23:00,Daniel,Heather,449d8bba-eb7b-4168-8871-e146fc1497a0,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 10:27:00,Heather,Daniel,423720fc-32e8-459d-9b57-3d0fc868cf0b,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 10:30:00,Daniel,Heather,e1606d9e-ff86-4b5e-9f63-051d898e0d7a,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 10:33:00,Heather,Daniel,377b13d9-da14-4e6a-a7d5-81e6943e10bb,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 10:36:00,Daniel,Heather,d95b3078-f8a9-4d59-94bf-66e50b5fc49a,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 10:41:00,Heather,Daniel,885b7dec-0b7b-4d91-97bd-7ce3c896009e,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 10:44:00,Daniel,Heather,591b3fd2-19b8-42c0-b2df-cb655bf9c4dc,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 10:49:00,Heather,Daniel,3624951c-2dfc-4e5b-aaa6-54886e2a4bdc,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 10:52:00,Daniel,Heather,c3cc08dc-796d-42c0-b29b-f23d7d1e0009,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 10:56:00,Heather,Daniel,cb29322c-e122-4397-b9fd-55d3be396868,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 11:01:00,Daniel,Heather,95b15b80-97c4-4d8f-9f88-473b5c2151c5,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 11:06:00,Heather,Daniel,c8656276-851a-412f-9430-32272d680a4c,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 11:11:00,Daniel,Heather,13fd4dcb-481c-43a0-be5a-7f51991db96a,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 11:16:00,Heather,Daniel,aa4a1f71-10c4-468b-b590-644639adab44,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 11:19:00,Daniel,Heather,8aa2dd51-3288-4729-89f5-a55df48cc82c,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 11:19:00,AI,Daniel,0bb6849d-b5ad-45e6-867b-66cbb30e5870,,"Summary after 130 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 11:24:00,Heather,Daniel,cb72384f-7064-42f4-a6a7-bc1898df0943,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 11:29:00,Daniel,Heather,52404532-69e2-4991-b592-37caf87e0d5e,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 11:33:00,Heather,Daniel,03884b4d-28ec-4fb0-b855-20413d129127,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 11:37:00,Daniel,Heather,2ccb7a33-f216-4a24-a0d3-b07b9a30f829,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 11:42:00,Heather,Daniel,33997823-563e-4724-91d7-2ae60a0f5523,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 11:47:00,Daniel,Heather,b0bef374-effe-4b3c-a199-dc3fb02af78a,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 11:50:00,Heather,Daniel,a13ad125-19ef-43a0-911c-109f3c0d2d2a,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 11:53:00,Daniel,Heather,17e4a82b-945a-42e2-b318-f4c835fc752e,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 11:56:00,Heather,Daniel,37cd8b11-5327-420b-9581-bcc0d21f530f,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 12:01:00,Daniel,Heather,f29aae7c-ecdc-46be-89c5-b17fd74747ed,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 12:04:00,Heather,Daniel,618fdc4d-7d4f-45d3-984c-3e6cc32242ad,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 12:08:00,Daniel,Heather,2bd53956-bd40-45c0-b423-ab95b92c1ded,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 12:13:00,Heather,Daniel,3155a78e-2720-4d89-9a90-a04398ebc39f,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 12:18:00,Daniel,Heather,1c9f3ddd-662c-48c6-b06b-133677bf01b1,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 12:21:00,Heather,Daniel,d17f46ed-c8a3-4081-8b3e-c88d41497348,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 12:26:00,Daniel,Heather,b3945c5c-0e4b-4d17-8335-3ed8768d54d8,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 12:29:00,Heather,Daniel,ba7c3d5f-fc7f-4292-a5a1-2389159140dc,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 12:33:00,Daniel,Heather,93c98f49-1a2e-4270-9e6d-cc693401cc25,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 12:37:00,Heather,Daniel,20816180-9441-486d-ac06-4d7807f708f4,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 12:42:00,Daniel,Heather,cf1ca801-7884-484a-9a3f-1d0026b0a872,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 12:42:00,AI,Daniel,65708e24-216c-4cda-b384-9381f3c2f716,,"Summary after 140 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 12:45:00,Heather,Daniel,1851d814-aa85-416f-9d2c-19c085f829ee,70,Monitor mood. Adjust approach accordingly.,Mission Cliffs? I’ve heard of it but never been.
+2025-06-21 12:50:00,Daniel,Heather,3b8ff1e8-f08c-4b3f-bc97-affe75f925ce,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 12:53:00,Heather,Daniel,55a44a4b-857e-4907-9146-041d9e9e8e68,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 12:58:00,Daniel,Heather,873d1238-a53d-47de-b400-953f43611a74,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 13:01:00,Heather,Daniel,73fd5afe-7b63-4c7b-9720-3929407e58f3,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 13:06:00,Daniel,Heather,ddc2eb7b-999d-439b-bd79-084b28847755,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 13:10:00,Heather,Daniel,1eb6b5f2-0c5f-4da1-89fc-8166f53cc253,70,Monitor mood. Adjust approach accordingly.,I've never rock climbed but it sounds intense... and fun!
+2025-06-21 13:14:00,Daniel,Heather,4ed63e4f-8eab-4670-a964-9661378565d3,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 13:17:00,Heather,Daniel,0fc61306-f7c5-4010-8611-43d85e9697fe,70,Monitor mood. Adjust approach accordingly.,Your mom has good taste then 😉
+2025-06-21 13:20:00,Daniel,Heather,a01453b8-1dbb-480a-a749-67378873c306,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 13:25:00,Heather,Daniel,94830aef-954e-4938-a191-0ddcdc77985e,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 13:30:00,Daniel,Heather,caaa12d0-0952-4698-85fe-132274c67f70,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 13:34:00,Heather,Daniel,871a950f-9d2c-4923-b4b6-2de54ebcb526,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 13:39:00,Daniel,Heather,40d48b74-3956-439c-af0e-ec519ba4370f,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 13:44:00,Heather,Daniel,22b48d6f-28e3-4520-b305-36f00489dfc0,70,Monitor mood. Adjust approach accordingly.,"Beach bonfire wins, hands down."
+2025-06-21 13:47:00,Daniel,Heather,80e9b101-af91-429a-81b3-275608826231,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 13:51:00,Heather,Daniel,8bcc6f63-6a71-4b5b-8174-4ab5659ea487,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 13:55:00,Daniel,Heather,3f21c4c3-7c04-4fa9-926d-3792fd6a1312,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 14:00:00,Heather,Daniel,8beeb275-65e8-464e-a9ca-486e6931c1ac,80,Monitor mood. Adjust approach accordingly.,Haha you're funny. Fluffy sounds adorable!
+2025-06-21 14:03:00,Daniel,Heather,34d19ec1-58dc-409b-88f2-8abbc654700a,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 14:03:00,AI,Daniel,63792941-8386-410f-8592-14a1921d6900,,"Summary after 150 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 14:07:00,Heather,Daniel,670f36a7-e08d-4e80-98fa-a873d8c89d4f,70,Monitor mood. Adjust approach accordingly.,I love pier walks. Especially at sunset.
+2025-06-21 14:12:00,Daniel,Heather,fee8958d-bf4f-40d4-bcde-d4d04f00c03c,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 14:17:00,Heather,Daniel,bb7c2651-f2e2-4ca9-8928-84dec1bbd4df,70,Monitor mood. Adjust approach accordingly.,I do read—mostly thrillers. And cookbooks I never use 😅
+2025-06-21 14:20:00,Daniel,Heather,f0f23408-247a-46bb-9933-f0321ea4a524,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 14:25:00,Heather,Daniel,0707264d-ea5a-4642-8e32-f627666b423c,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 14:29:00,Daniel,Heather,1034c843-165d-4656-b7d6-303e51350089,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 14:33:00,Heather,Daniel,699a6929-aaea-4756-928d-895d67362317,70,Monitor mood. Adjust approach accordingly.,"Wait, you read AND climb rocks? Are you trying to make other guys look bad?"
+2025-06-21 14:38:00,Daniel,Heather,8d16b40f-9836-42fa-8535-670771cc16ff,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 14:43:00,Heather,Daniel,29a2564d-a125-47f8-90b0-beb6cdae1a02,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 14:46:00,Daniel,Heather,ed0134c5-6966-4faa-8e1b-bc18f8b89a51,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 14:49:00,Heather,Daniel,2e60c237-18ad-481b-8020-582987f71cf1,70,Monitor mood. Adjust approach accordingly.,Tell Fluffy I said hi 🐶
+2025-06-21 14:54:00,Daniel,Heather,5ddb66d1-3ad8-4904-a5a1-6aab28922218,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 14:58:00,Heather,Daniel,b4af01c2-7e16-4123-a00d-bdd1de1ad710,70,Monitor mood. Adjust approach accordingly.,Cortado? Wow. Fancy. I'm more of a caramel macchiato girl.
+2025-06-21 15:02:00,Daniel,Heather,56b39d24-7e34-4bdf-becc-76ee121e6617,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 15:07:00,Daniel,Heather,fe46222a-708b-4d2e-bf14-fdf9d116333f,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 15:11:00,Daniel,Heather,172fc875-2faf-45cd-b27d-a6d6f6370215,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 15:16:00,Daniel,Heather,4b5b581f-d971-4748-a3dc-de0d63887c4c,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 15:16:00,AI,Daniel,28b1d110-cdff-464d-b73a-e47000d4373b,,"Summary after 160 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 15:21:00,Daniel,Heather,6eda7e79-cba5-452c-b357-d9504fd13179,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 15:25:00,Daniel,Heather,9876f04d-e3fb-4004-937f-7bf6f6342d35,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 15:30:00,Daniel,Heather,24b4d2d1-f691-4e1b-8961-6156ad44caeb,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 15:35:00,Daniel,Heather,8ce9dcd9-7e4e-4566-bc4b-a119c5ff8775,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 15:38:00,Daniel,Heather,d254ef25-36e3-41a7-9163-612ca13e7e0d,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 15:41:00,Daniel,Heather,6739b60b-9dfc-4c56-a3e6-d31e62bcfbc0,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 15:45:00,Daniel,Heather,51056ac2-12f3-4ba2-bd9b-5414ed26849f,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 15:48:00,Daniel,Heather,628e1eed-4733-4b3c-b72f-207b8b55aa4f,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 15:52:00,Daniel,Heather,b7d160b2-15d6-4639-bced-3a4520041e84,70,Building rapport. Keep being witty and observant.,My mom says I’m charming. She’s also biased. You be the judge 😏
+2025-06-21 15:55:00,Daniel,Heather,aac77a46-3654-457d-927a-745cfc2463b3,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 15:55:00,AI,Daniel,13bbf195-a253-412a-9763-27a021215efa,,"Summary after 170 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 15:59:00,Daniel,Heather,e015e9d9-a2ea-4997-ac6c-8714aee51623,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:03:00,Daniel,Heather,5b10568d-50cf-4aec-a113-bd1fa51d5d3c,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 16:07:00,Daniel,Heather,487ab48a-2e08-4e87-a035-ec4e2b42e009,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 16:10:00,Daniel,Heather,478a90dc-6c8e-40cc-828a-f940157c54a7,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 16:13:00,Daniel,Heather,447307a2-28a3-46c9-805b-3353d520c735,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 16:16:00,Daniel,Heather,1907f9b2-1512-4537-b8ad-b8a4bc1ece44,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 16:21:00,Daniel,Heather,6c43c0ac-ebaf-4c99-bcc6-f9e30c1525cc,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:26:00,Daniel,Heather,126c4f3c-9c07-47a9-a38f-7be483fa317b,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:29:00,Daniel,Heather,61c7928c-7580-484c-8ca3-c24d0039a24b,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 16:33:00,Daniel,Heather,dc5c6bf2-8797-4482-a4dd-9ba69c8597ba,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 16:33:00,AI,Daniel,e1fcad02-8652-4120-b94a-75c3b8e4b6f2,,"Summary after 180 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 16:36:00,Daniel,Heather,ef99f019-a8d0-44d4-b615-9741f374b828,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 16:41:00,Daniel,Heather,ad91fdf1-a9af-4b08-a89b-e31b1ebd6758,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:46:00,Daniel,Heather,612eb368-63d4-4052-bdb8-274136ee7707,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 16:49:00,Daniel,Heather,e7f4e955-299b-4f27-bfb4-c1d61a6d1e4b,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:54:00,Daniel,Heather,7dcce7d4-c328-4f47-a44f-13898a3b77dc,70,Building rapport. Keep being witty and observant.,You ever rock climbed? I’d totally be your belay guy. Bonus: I don’t drop people.
+2025-06-21 16:57:00,Daniel,Heather,5cae3bdc-fdeb-47c7-abba-7da3856e3eeb,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 17:00:00,Daniel,Heather,bdcae356-9616-483e-b4c6-b9b8883d861d,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 17:05:00,Daniel,Heather,f8e4e85b-edd7-4a88-a302-9c357315e4e7,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 17:08:00,Daniel,Heather,10accf13-5a06-4f21-af44-e91f11ed522b,70,Building rapport. Keep being witty and observant.,Just finished a climb at Mission Cliffs. My fingers are noodles. Worth it.
+2025-06-21 17:12:00,Daniel,Heather,ed04953d-6799-4f8d-8742-ce9c99c1c781,70,Building rapport. Keep being witty and observant.,What’s your weekend look like? Fluffy and I usually do a long walk by the pier.
+2025-06-21 17:12:00,AI,Daniel,4d3e3c82-16cd-44f0-bf23-28eb6f8e05e6,,"Summary after 190 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",
+2025-06-21 17:16:00,Daniel,Heather,0678197e-d690-409a-b812-3d24f42915ba,70,Building rapport. Keep being witty and observant.,I swear Fluffy picks up more numbers than I do. She’s a fluffy wingman 🐶
+2025-06-21 17:19:00,Daniel,Heather,cf117e1d-a8f6-45a8-a7de-d8b63cc432f5,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 17:22:00,Daniel,Heather,758dd6a1-1274-4be6-90bd-48cf706e4e03,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 17:25:00,Daniel,Heather,2c1a46fa-96ce-414c-b2ed-457490e5e0a9,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 17:29:00,Daniel,Heather,c3c6f95e-ea4b-4e92-8772-3ba705a97a75,70,Building rapport. Keep being witty and observant.,"Coffee sometime? I make a mean cortado. Well, mean-ish. Starbucks helps."
+2025-06-21 17:32:00,Daniel,Heather,8ef752a1-409b-4bcd-98ad-508722494432,70,Building rapport. Keep being witty and observant.,"If I were a book genre, I’d be mystery with a splash of rom-com. You?"
+2025-06-21 17:36:00,Daniel,Heather,de48c226-edbf-49df-bbf1-d3493b1ce756,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 17:39:00,Daniel,Heather,f8645e9e-2ef7-446b-b2d5-9a171e0703e0,70,Building rapport. Keep being witty and observant.,"Hey Heather! Daniel here—Tinder didn’t crash from our match, so that’s a good sign 😎"
+2025-06-21 17:44:00,Daniel,Heather,10d8e50f-7fa4-43cd-99c8-125d9b5acecd,70,Building rapport. Keep being witty and observant.,Ok real question: Beach bonfire or mountain cabin for a weekend escape?
+2025-06-21 17:47:00,Daniel,Heather,66996a2a-70de-4553-b38a-a1b54a7bbc76,70,Building rapport. Keep being witty and observant.,Do you read? I just finished this book about surviving in the Alaskan wilderness.
+2025-06-21 17:47:00,AI,Daniel,a5e18e70-46bb-4966-b2f1-f14cd7a7707a,,"Summary after 200 messages: She's engaging, laughing, and asking questions. Connection building well. Still a bit early for Netflix & Chill—aim for a casual invite or shared plan soon.",

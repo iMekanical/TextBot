@@ -1,0 +1,852 @@
+models:
+    Account:
+        id: integer primary
+        has_access_to_paid_version_for_free: tinyInteger
+        api_key: string
+        number_of_invitations_sent: integer nullable
+        default_time_reminder_is_sent: string
+        default_gender_id: integer nullable
+        stripe_id: string index nullable
+        card_brand: string nullable
+        card_last_four: string nullable
+        trial_ends_at: timestamp nullable
+        legacy_free_plan_unlimited_contacts: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Activity:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        activity_type_id: integer nullable foreign:activity_types.id
+        summary: string
+        description: longText nullable
+        happened_at: date
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ActivityContact:
+        id: false
+        activity_id: integer foreign:activities.id
+        contact_id: integer foreign:contacts.id
+        account_id: integer foreign:accounts.id
+    ActivityStatistic:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        year: integer
+        count: integer
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ActivityTypeCategory:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string nullable
+        translation_key: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ActivityType:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        activity_type_category_id: integer foreign:activity_type_categories.id
+        name: string nullable
+        translation_key: string nullable
+        location_type: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    AddressContactFieldLabel:
+        id: false
+        contact_field_label_id: bigInteger foreign:contact_field_labels.id
+        address_id: integer foreign:addresses.id
+        account_id: integer foreign:accounts.id
+    Address:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        place_id: integer nullable foreign:places.id
+        contact_id: integer foreign:contacts.id
+        name: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ApiUsage:
+        id: integer primary
+        url: string
+        method: string
+        client_ip: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    AuditLog:
+        id: id
+        account_id: integer foreign:accounts.id
+        author_id: integer nullable
+        about_contact_id: integer nullable
+        author_name: string
+        action: string
+        objects: text
+        audited_at: dateTime
+        should_appear_on_dashboard: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Cache:
+        id: false
+        key: string unique
+        value: text
+        expiration: integer
+    Call:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        called_at: dateTime
+        content: mediumText nullable
+        contact_called: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Company:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        website: string nullable
+        number_of_employees: integer nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ContactFieldContactFieldLabel:
+        id: false
+        contact_field_label_id: bigInteger foreign:contact_field_labels.id
+        contact_field_id: integer foreign:contact_fields.id
+        account_id: integer foreign:accounts.id
+    ContactFieldLabel:
+        id: id
+        account_id: integer foreign:accounts.id
+        label_i18n: string nullable
+        label: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ContactFieldType:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        fontawesome_icon: string nullable
+        protocol: string nullable
+        delible: tinyInteger
+        type: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ContactField:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        contact_field_type_id: integer foreign:contact_field_types.id
+        data: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ContactPhoto:
+        id: false
+        contact_id: integer foreign:contacts.id
+        photo_id: integer foreign:photos.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ContactTag:
+        id: false
+        contact_id: integer foreign:contacts.id
+        tag_id: integer foreign:tags.id
+        account_id: integer foreign:accounts.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Contact:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        first_name: string
+        middle_name: string nullable
+        last_name: string nullable
+        nickname: string nullable
+        gender_id: integer nullable foreign:genders.id
+        description: string nullable
+        uuid: char nullable
+        is_starred: tinyInteger
+        is_partial: tinyInteger
+        is_active: tinyInteger
+        is_dead: tinyInteger
+        deceased_special_date_id: integer nullable
+        deceased_reminder_id: integer nullable
+        last_talked_to: date nullable
+        stay_in_touch_frequency: integer nullable
+        stay_in_touch_trigger_date: dateTime nullable
+        birthday_special_date_id: integer nullable
+        birthday_reminder_id: integer nullable
+        first_met_through_contact_id: integer nullable
+        first_met_special_date_id: integer nullable
+        first_met_reminder_id: integer nullable
+        first_met_where: string nullable
+        first_met_additional_info: longText nullable
+        job: string nullable
+        company: string nullable
+        food_preferences: longText nullable
+        avatar_source: string
+        avatar_gravatar_url: string nullable
+        avatar_adorable_uuid: char nullable
+        avatar_adorable_url: string nullable
+        avatar_default_url: string nullable
+        avatar_photo_id: integer nullable
+        has_avatar: tinyInteger
+        avatar_external_url: string nullable
+        avatar_file_name: string nullable
+        avatar_location: string
+        gravatar_url: string nullable
+        last_consulted_at: timestamp nullable
+        number_of_views: integer
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        default_avatar_color: string
+        has_avatar_bool: tinyInteger
+    Conversation:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        contact_field_type_id: integer foreign:contact_field_types.id
+        happened_at: dateTime
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Cron:
+        id: integer primary
+        command: string unique
+        last_run: timestamp
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Currency:
+        id: integer primary
+        iso: string
+        name: string
+        symbol: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Day:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        date: date
+        rate: integer
+        comment: mediumText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Debt:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        in_debt: string
+        status: string
+        amount: decimal
+        reason: longText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultActivityTypeCategory:
+        id: integer primary
+        translation_key: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultActivityType:
+        id: integer primary
+        default_activity_type_category_id: integer foreign:default_activity_type_categories.id
+        translation_key: string
+        location_type: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultContactFieldType:
+        id: integer primary
+        name: string
+        fontawesome_icon: string nullable
+        protocol: string nullable
+        migrated: tinyInteger
+        delible: tinyInteger
+        type: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultContactModule:
+        id: integer primary
+        key: string
+        translation_key: string
+        delible: tinyInteger
+        active: tinyInteger
+        migrated: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultLifeEventCategory:
+        id: integer primary
+        translation_key: string
+        migrated: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultLifeEventType:
+        id: integer primary
+        default_life_event_category_id: integer foreign:default_life_event_categories.id
+        translation_key: string
+        specific_information_structure: text nullable
+        migrated: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultRelationshipTypeGroup:
+        id: integer primary
+        name: string
+        delible: tinyInteger
+        migrated: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    DefaultRelationshipType:
+        id: integer primary
+        name: string
+        name_reverse_relationship: string
+        relationship_type_group_id: integer foreign:relationship_type_groups.id
+        delible: tinyInteger
+        migrated: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Document:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        original_filename: string
+        new_filename: string
+        filesize: integer nullable
+        type: string nullable
+        mime_type: string nullable
+        number_of_downloads: integer
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    EmotionActivity:
+        id: false
+        account_id: integer foreign:accounts.id
+        activity_id: integer foreign:activities.id
+        emotion_id: integer foreign:emotions.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    EmotionCall:
+        id: false
+        account_id: integer foreign:accounts.id
+        call_id: integer foreign:calls.id
+        emotion_id: integer foreign:emotions.id
+        contact_id: integer foreign:contacts.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Emotion:
+        id: integer primary
+        emotion_primary_id: integer
+        emotion_secondary_id: integer
+        name: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    EmotionsPrimary:
+        id: integer primary
+        name: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    EmotionsSecondary:
+        id: integer primary
+        emotion_primary_id: integer foreign:emotions_primary.id
+        name: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Entry:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        title: string nullable
+        post: longText
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    FailedJob:
+        id: integer primary
+        connection: text
+        queue: text
+        payload: longText
+        exception: longText
+        failed_at: timestamp
+    Gender:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        type: char nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    GiftPhoto:
+        id: false
+        photo_id: integer foreign:photos.id
+        gift_id: integer foreign:gifts.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        indexes:
+            - primary: photo_id, gift_id
+    Gift:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        is_for: integer nullable foreign:contacts.id
+        name: string
+        comment: longText nullable
+        url: longText nullable
+        value: string nullable
+        status: string
+        date: dateTime nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ImportJobReport:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        user_id: integer foreign:users.id
+        import_job_id: integer foreign:import_jobs.id
+        contact_information: mediumText
+        skipped: tinyInteger
+        skip_reason: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ImportJob:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        user_id: integer foreign:users.id
+        type: string
+        contacts_found: integer nullable
+        contacts_skipped: integer nullable
+        contacts_imported: integer nullable
+        filename: string nullable
+        started_at: date nullable
+        ended_at: date nullable
+        failed: tinyInteger
+        failed_reason: mediumText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Instance:
+        id: integer primary
+        uuid: string
+        current_version: string
+        latest_version: string nullable
+        latest_release_notes: mediumText nullable
+        number_of_versions_since_current_version: integer nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Invitation:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        invited_by_user_id: integer
+        email: string
+        invitation_key: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Job:
+        id: id
+        queue: string
+        payload: longText
+        attempts: tinyInteger
+        reserved_at: integer nullable
+        available_at: integer
+        created_at: integer
+        indexes:
+            - index: queue, reserved_at
+    JournalEntry:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        date: dateTime
+        journalable_id: integer
+        journalable_type: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    LifeEventCategory:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        default_life_event_category_key: string nullable
+        core_monica_data: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    LifeEventType:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        life_event_category_id: integer foreign:life_event_categories.id
+        name: string
+        default_life_event_type_key: string nullable
+        core_monica_data: tinyInteger
+        specific_information_structure: text nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    LifeEvent:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        life_event_type_id: integer foreign:life_event_types.id
+        reminder_id: integer nullable foreign:reminders.id
+        name: string nullable
+        note: mediumText nullable
+        happened_at: dateTime
+        happened_at_month_unknown: tinyInteger
+        happened_at_day_unknown: tinyInteger
+        specific_information: text nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Message:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        conversation_id: integer foreign:conversations.id
+        content: longText
+        written_at: dateTime
+        written_by_me: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    MetadataLoveRelationship:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        relationship_id: integer foreign:relationships.id
+        is_active: tinyInteger
+        notes: mediumText nullable
+        meet_date: dateTime nullable
+        official_date: dateTime nullable
+        breakup_date: dateTime nullable
+        breakup_reason: mediumText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Module:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        key: string
+        translation_key: string
+        active: tinyInteger
+        delible: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Note:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        body: mediumText
+        is_favorited: tinyInteger
+        favorited_at: date nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    OauthAccessToken:
+        id: string primary
+        user_id: bigInteger nullable foreign:users.id
+        client_id: bigInteger
+        name: string nullable
+        scopes: text nullable
+        revoked: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        expires_at: dateTime nullable
+    OauthAuthCode:
+        id: string primary
+        user_id: bigInteger foreign:users.id
+        client_id: bigInteger
+        scopes: text nullable
+        revoked: tinyInteger
+        expires_at: dateTime nullable
+    OauthClient:
+        id: id
+        user_id: bigInteger nullable foreign:users.id
+        name: string
+        secret: string nullable
+        redirect: text
+        personal_access_client: tinyInteger
+        password_client: tinyInteger
+        revoked: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    OauthPersonalAccessClient:
+        id: id
+        client_id: bigInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    OauthRefreshToken:
+        id: string primary
+        access_token_id: string
+        revoked: tinyInteger
+        expires_at: dateTime nullable
+    Occupation:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        company_id: integer foreign:companies.id
+        title: string
+        description: string nullable
+        salary: integer nullable
+        salary_unit: string nullable
+        currently_works_here: tinyInteger nullable
+        start_date: date nullable
+        end_date: date nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    PasswordReset:
+        id: false
+        email: string index
+        token: string index
+        created_at: timestamp
+    PetCategory:
+        id: integer primary
+        name: string
+        is_common: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Pet:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        pet_category_id: integer foreign:pet_categories.id
+        name: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Photo:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        original_filename: string
+        new_filename: string
+        filesize: integer nullable
+        mime_type: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Place:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        street: string nullable
+        city: string nullable
+        province: string nullable
+        postal_code: string nullable
+        country: char nullable
+        latitude: double nullable
+        longitude: double nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    RecoveryCode:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        user_id: integer foreign:users.id
+        recovery: string
+        used: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    RelationshipTypeGroup:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        delible: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    RelationshipType:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        name_reverse_relationship: string
+        relationship_type_group_id: integer foreign:relationship_type_groups.id
+        delible: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Relationship:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        relationship_type_id: integer foreign:relationship_types.id
+        contact_is: integer foreign:contacts.id
+        of_contact: integer foreign:contacts.id
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ReminderOutbox:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        reminder_id: integer foreign:reminders.id
+        user_id: integer foreign:users.id
+        planned_date: date
+        nature: string
+        notification_number_days_before: integer nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ReminderRule:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        number_of_days_before: integer
+        active: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    ReminderSent:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        reminder_id: integer nullable foreign:reminders.id
+        user_id: integer foreign:users.id
+        planned_date: date
+        sent_date: dateTime
+        nature: string
+        frequency_type: string nullable
+        frequency_number: integer nullable
+        html_content: longText nullable
+        text_content: longText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Reminder:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        initial_date: date
+        title: mediumText nullable
+        description: longText nullable
+        frequency_type: string
+        frequency_number: integer nullable
+        delible: tinyInteger
+        inactive: tinyInteger
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Session:
+        id: string unique
+        user_id: integer nullable foreign:users.id
+        ip_address: string nullable
+        user_agent: text nullable
+        payload: text
+        last_activity: integer
+    SpecialDate:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer foreign:contacts.id
+        uuid: char nullable
+        is_age_based: tinyInteger
+        is_year_unknown: tinyInteger
+        date: date
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        indexes:
+            - index: account_id, uuid
+    Statistic:
+        id: integer primary
+        number_of_users: integer
+        number_of_contacts: integer
+        number_of_notes: integer
+        number_of_oauth_access_tokens: integer
+        number_of_oauth_clients: integer
+        number_of_offsprings: integer
+        number_of_progenitors: integer
+        number_of_relationships: integer
+        number_of_subscriptions: integer
+        number_of_reminders: integer
+        number_of_tasks: integer
+        number_of_kids: integer
+        number_of_activities: integer
+        number_of_addresses: integer
+        number_of_api_calls: integer
+        number_of_calls: integer
+        number_of_contact_fields: integer
+        number_of_contact_field_types: integer
+        number_of_debts: integer
+        number_of_entries: integer
+        number_of_gifts: integer
+        number_of_invitations_sent: integer nullable
+        number_of_accounts_with_more_than_one_user: integer nullable
+        number_of_tags: integer nullable
+        number_of_import_jobs: integer nullable
+        number_of_conversations: integer nullable
+        number_of_messages: integer nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Subscription:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        stripe_id: string
+        stripe_status: string
+        stripe_plan: string
+        quantity: integer
+        trial_ends_at: timestamp nullable
+        ends_at: timestamp nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        indexes:
+            - index: account_id, stripe_status
+    Synctoken:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        user_id: integer foreign:users.id
+        name: string
+        timestamp: timestamp
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        indexes:
+            - index: account_id, user_id, name
+    Tag:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        name: string
+        name_slug: string
+        description: mediumText nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Task:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        contact_id: integer nullable foreign:contacts.id
+        uuid: char nullable
+        title: string
+        description: longText nullable
+        completed: tinyInteger
+        completed_at: dateTime nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+        indexes:
+            - index: account_id, uuid
+    TermUser:
+        id: false
+        account_id: integer foreign:accounts.id
+        user_id: integer foreign:users.id
+        term_id: integer foreign:terms.id
+        ip_address: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Term:
+        id: integer primary
+        term_version: string
+        term_content: mediumText
+        privacy_version: string
+        privacy_content: mediumText
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    U2fKey:
+        id: integer primary
+        name: string
+        user_id: integer foreign:users.id
+        keyHandle: string
+        publicKey: string unique
+        certificate: text
+        counter: integer
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    User:
+        id: integer primary
+        first_name: string
+        last_name: string
+        email: string unique
+        me_contact_id: integer nullable foreign:contacts.id
+        admin: tinyInteger
+        email_verified_at: timestamp nullable
+        password: string
+        remember_token: string nullable
+        google2fa_secret: string nullable
+        account_id: integer foreign:accounts.id
+        timezone: string nullable
+        currency_id: integer nullable foreign:currencies.id
+        locale: string
+        metric: string
+        fluid_container: string
+        contacts_sort_order: string
+        name_order: string
+        invited_by_user_id: integer nullable foreign:users.id
+        dashboard_active_tab: string
+        gifts_active_tab: string
+        profile_active_tab: string
+        profile_new_life_event_badge_seen: tinyInteger
+        temperature_scale: string nullable
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    Weather:
+        id: integer primary
+        account_id: integer foreign:accounts.id
+        place_id: integer foreign:places.id
+        weather_json: string
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
+    WebauthnKey:
+        id: integer primary
+        user_id: integer foreign:users.id
+        name: string
+        credentialId: string index
+        type: string
+        transports: text
+        attestationType: string
+        trustPath: text
+        aaguid: text
+        credentialPublicKey: text
+        counter: integer
+        created_at: timestamp nullable
+        updated_at: timestamp nullable
